@@ -4,13 +4,13 @@ A bash script that will clean your temporary Windows files in **Windows Subsyste
 
 It will remove **local** and **global** temporary files that are useless.
 
-Free up space and improve performance by removing all this unused files.
+Free up space and improve performance by removing all these unused files.
 
 ---
 
 ## **Download**💎📥
 
-See the **[release](https://github.com/Josee9988/WSL-cleanTemp/releases/tag/1.0)**.
+Take a look at the **[release](https://github.com/Josee9988/WSL-cleanTemp/releases/tag/1.0)**.
 
 **[Direct download](https://github.com/Josee9988/WSL-cleanTemp/releases/download/1.0/cleanTemp.sh)** to the .sh script.
 

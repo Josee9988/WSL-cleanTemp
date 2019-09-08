@@ -7,7 +7,7 @@
 #               will free up space and let your Windows perform better.
 # TITLE:        Clean temporary files
 # AUTHOR:       Jose Gracia
-# VERSION:      1.0 Release
+# VERSION:      1.01
 # NOTES:        This script is tested multiple times and got no errors,
 #               the temporary files that are needed or are in use
 #               will not be removed, anyways we do not take care of any
@@ -19,10 +19,9 @@
 # MAIL:         jgracia9988@gmail.com
 #~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
 
-RED='\033[0;31m'
-NC='\033[0m'
-UNDERLINE=$(echo -en "\e[4m")
-PURPLE=$(echo -en "\e[35m")
+red='\033[0;31m'
+nc='\033[0m'
+underLine=$(echo -en "\e[4m")
 startTime=$(date +%s%N)
 
 if grep -q Microsoft /proc/version; then #checks if you are using WSL or a regular Linux.
@@ -36,8 +35,8 @@ if grep -q Microsoft /proc/version; then #checks if you are using WSL or a regul
 
     echo "Done. All your temporary files that were not in use are now removed!"
 
-    echo -e "Time used for the script: ${UNDERLINE}$((($(date +%s%N) - $startTime) / 1000000)) milliseconds${NC}."
+    echo -e "Time used for the script: ${underLine}$((($(date +%s%N) - $startTime) / 1000000)) milliseconds${nc}."
 
 else
-    echo -e "You are ${RED}NOT${NC} using ${UNDERLINE}Windows Subsystem for Linux${NC} so this script will automatically close."
+    echo -e "You are ${red}NOT${nc} using ${underLine}Windows Subsystem for Linux${nc} so this script will automatically close."
 fi
