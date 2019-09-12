@@ -1,4 +1,4 @@
-# **Clean temporary files in WSL**
+# **Clean temporary windows files in WSL**
 
 A bash script that will clean your temporary Windows files in **Windows Subsystem for Linux**.
 
@@ -8,11 +8,11 @@ Free up space and improve performance by removing all these unused files.
 
 ---
 
-## **Download**💎📥
+## **Download** 💎📥
 
 Take a look at the **[release](https://github.com/Josee9988/WSL-cleanTemp/releases/tag/1.0)**.
 
-**[Direct download](https://github.com/Josee9988/WSL-cleanTemp/releases/download/1.0/cleanTemp.sh)** to the .sh script.
+**[Direct download](https://github.com/Josee9988/WSL-cleanTemp/releases/download/1.0/cleanTemp.sh)** to the *.sh* script.
 
 ## **How to run the script** ⚙️🔩
 
@@ -20,12 +20,12 @@ To execute the script and remove your temporary files.
 
 ``` bash
 chmod +x cleanTemp.sh #to give execute permissions.
-./cleanTemp.sh #to execute the script
+./cleanTemp.sh #to execute the script.
 ```
 
 ---
 
-### Did you enjoyed the script? Help us raise these numbers 🥰 🎉
+### Did you enjoyed the script? Help us raise these numbers 🥰🎉
 
 [![Donate](https://img.shields.io/badge/Donate-Patreon-green.svg)](https://www.patreon.com/bePatron?u=22162331)
 [![Github followers](https://img.shields.io/github/followers/Josee9988?style=social)](#languages-primarily-tested)
@@ -34,5 +34,7 @@ chmod +x cleanTemp.sh #to give execute permissions.
 [![Github forks](https://img.shields.io/github/forks/Josee9988/WSL-cleanTemp?style=social)](#languages-primarily-tested)
 
 ---
+
+> ⚠️Remember that this script does not guarantee a 100% effectiveness and may have some issue at some point. Use it at your own risk and always do backups of your data.⚠️
 
 *Made with a lot of ❤️❤️ by **[@Josee9988](https://github.com/Josee9988)***
