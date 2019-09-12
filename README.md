@@ -10,9 +10,9 @@ Free up space and improve performance by removing all these unused files.
 
 ## **Download** 💎📥
 
-Take a look at the **[release](https://github.com/Josee9988/WSL-cleanTemp/releases/tag/1.0)**.
+Take a look at the **[releases](https://github.com/Josee9988/WSL-cleanTemp/releases/)**.
 
-**[Direct download](https://github.com/Josee9988/WSL-cleanTemp/releases/download/1.0/cleanTemp.sh)** to the *.sh* script.
+**[Direct download v1.02](https://github.com/Josee9988/WSL-cleanTemp/releases/download/1.02/cleanTemp.sh)** to the *.sh* script.
 
 ## **How to run the script** ⚙️🔩
 

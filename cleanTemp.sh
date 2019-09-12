@@ -7,7 +7,7 @@
 #               will free up space and let your Windows perform better.
 # TITLE:        Clean temporary files
 # AUTHOR:       Jose Gracia
-# VERSION:      1.01
+# VERSION:      1.02
 # NOTES:        This script is tested multiple times and got no errors,
 #               the temporary files that are needed or are in use
 #               will not be removed, anyways we do not take care of any
