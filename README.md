@@ -19,6 +19,12 @@ Take a look at the **[releases](https://github.com/Josee9988/WSL-cleanTemp/relea
 To execute the script and remove your temporary files.
 
 ``` bash
+bash cleanTemp.sh #to execute the script.
+```
+
+OR
+
+``` bash
 chmod +x cleanTemp.sh #to give execute permissions.
 ./cleanTemp.sh #to execute the script.
 ```
